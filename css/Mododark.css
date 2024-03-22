@@ -1,0 +1,53 @@
+/* Versión de noche */
+.modo-noche {
+    background-color: #000;
+    color: #fff;
+}
+.modo-noche #cont-general {
+    background-color: #333;
+}
+.modo-noche #cont-calculadora{
+    background: linear-gradient(145deg, #1d1d1d, #222222);
+    box-shadow:  50px 50px 100px #333333,
+             -50px -50px 100px #333333;
+}
+.modo-noche #cont-escritura input{
+    color: #abb4cc;
+    background: #202020;
+    background: linear-gradient(145deg, #444444, #3a3a3a);
+    box-shadow:  20px 20px 60px #363636,
+             -20px -20px 60px #4a4a4a;
+}
+.modo-noche .btn {
+    color: #fff;
+    background: #000000;
+    box-shadow: inset 20px 20px 60px #000000,
+            inset -20px -20px 60px #000000;
+}
+.modo-noche .btn:active{
+    background: linear-gradient(315deg, #1d1d1d, #222222);
+    box-shadow:  -5px -5px 10px #0d0d0d,
+             5px 5px 10px #333333;
+}
+/* .modo-noche .btn.lat {
+    color: orange;
+    background: #202020;
+    box-shadow: inset -5px -5px 10px #0d0d0d,
+            inset 5px 5px 10px #333333;
+} */
+.modo-noche .btn.lat:active{
+    background: linear-gradient(315deg, #1d1d1d, #222222);
+    box-shadow:  -5px -5px 10px #0d0d0d,
+             5px 5px 10px #333333;
+}
+.modo-noche .btn.doble{
+    color: #fff;
+    background: linear-gradient(145deg, #000000, #000000);
+    box-shadow:  20px 20px 60px #282828,
+             -20px -20px 60px #282828;
+}
+.modo-noche .btn.doble:active{
+    background: linear-gradient(315deg, #1d1d1d, #222222);
+    box-shadow:  -5px -5px 10px #0d0d0d,
+             5px 5px 10px #333333;
+}
